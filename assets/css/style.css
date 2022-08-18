@@ -31,7 +31,7 @@ html, body {
     font-size: 35px;
 }
 
-.fade-in-image { animation: fadeIn 1.5s ease-in; }
+.fade-in-image { animation: fadeIn 1s ease-in; }
 @keyframes fadeIn {
     0% { opacity: 0; }
     100% { opacity: 1; }
@@ -44,23 +44,32 @@ html, body {
   height: 300px;
 }
 
+.teenytext {
+  font-family:Verdana;
+  font-weight: lighter;
+  font-size: xx-small;
+  padding-bottom: 0%;
+  padding-top: 0%;
+}
+
 .submainheaders {
   font-family:Audiowide;
   font-size: 60px;
 }
 
 .imscale1 {
-  width: 10%;
+  width: 8%; /*gmail logo*/
   height: auto;
+  padding-right: 36px;
 }
 
 .imscale2 {
-  width: 10%;
+  width: 8%; /*github logo*/
   height: auto;
 }
 
 .imscale3 {
-  width: 10%;
+  width: 12%; /*discord logo*/
   height: auto;
 }
 
@@ -91,4 +100,20 @@ footer {
 .footerp {
   font-family:Verdana;
   font-weight: lighter;
+}
+
+.stuff {
+  padding-left: 0%;
+  padding-right: 0%;
+  height: 300px;
+}
+
+.stuff h1 {
+  font-family: Audiowide;
+  font-size: 70px;
+}
+
+.links {
+  font-family:Verdana;
+  font-size: 25;
 }
