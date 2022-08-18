@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong");
+
+
+html, body {
+
+
+
+  margin:0;
+  
+  padding:0;
+  
+  
+  
+  }
+
+body h1 {
+    font-family:Audiowide;
+    font-size:110px;
+}
+
+body h2 {
+    font-family:Verdana;
+    font-size:60;
+    padding-bottom:200px;
+}
+
+body p {
+    font-family:Verdana;
+    font-size:25;
+    font-weight:bold
+}
+
+.links {
+    font-family:Verdana;
+    font-size: 20px;
+    padding-bottom:40px;
+}
+
+body {
+    background-color: rgb(105, 168, 184);
+}
