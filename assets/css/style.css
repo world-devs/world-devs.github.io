@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong");
+
+
+html, body {
+
+
+
+  margin:0;
+  
+  padding:0;
+  
+  
+  
+  }
+
+
+
+.firstbody {
+    background-color: rgb(105, 168, 184);
+    
+  }
+
+.mainheaders {
+    font-family:Audiowide;
+    font-size:100px
+    
+}
+
+.subheaders {
+    font-family:Verdana;
+    font-size: 35px;
+}
+
+.fade-in-image { animation: fadeIn 1.5s ease-in; }
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+.contactinf {
+  background-color: grey;
+  padding-left: 0%;
+  padding-right: 0%;
+  height: 300px;
+}
+
+.submainheaders {
+  font-family:Audiowide;
+  font-size: 60px;
+}
+
+.imscale1 {
+  width: 10%;
+  height: auto;
+}
+
+.imscale2 {
+  width: 10%;
+  height: auto;
+}
+
+.imscale3 {
+  width: 10%;
+  height: auto;
+}
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; ;
+}
+
+
+.inner1 {
+  float: left;
+  padding: 20px;
+}
+
+
+.underc {
+  background-color: gold;
+}
+
+footer {
+  background-color: grey;
+  height: 100px;
+}
+
+.footerp {
+  font-family:Verdana;
+  font-weight: lighter;
+}
