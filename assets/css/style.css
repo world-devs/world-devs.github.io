@@ -38,7 +38,7 @@ html, body {
   }
 
 .contactinf {
-  background-color: grey;
+  background-color: #33658A;
   padding-left: 0%;
   padding-right: 0%;
   height: 300px;
@@ -88,12 +88,8 @@ html, body {
 }
 
 
-.underc {
-  background-color: gold;
-}
-
 footer {
-  background-color: grey;
+  background-color:#33658A;
   height: 100px;
 }
 
