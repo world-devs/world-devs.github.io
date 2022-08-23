@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong");
+
+h1 {
+    font-family:Audiowide;
+    font-weight: bold;
+    font-size: 120px;
+}
+
+html {
+    background-color: #86BBD8;
+}
