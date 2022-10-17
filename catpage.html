@@ -6,14 +6,25 @@
     <title>Reid's Cats</title>
     <link rel="stylesheet" href="assets/css/stuff.css">
     <link rel="icon" type="image/x-icon" href="assets/imgs/favicon.png">
+    <script>
+        /*function check(e)
+        {
+        alert(e.keyCode);
+        }*/
+        document.onkeydown = function(e) {
+                if (e.ctrlKey && (e.keyCode === 67 || e.keyCode === 86 || e.keyCode === 85 || e.keyCode === 117)) {//Alt+c, Alt+v will also be disabled sadly.
+                }
+                return false;
+        };
+        </script>
 </head>
 <center>
-    <body>
+    <body oncontextmenu="return false;">
         <h1>Reid's Cats</h1>
         <p>My first website!! My homie Reid gave me some pics of his cats so I thought why not learn HTML and make a website dedicated to his cats? <br> <br></p>
         <a href="https://github.com/MushyToast/reidscats"><p class="links">GitHub Repo</p></a>
         <a href="https://mushytoast.github.io/reidscats/"><p class="links">Website</p></a>
         <a href="https://devdodger.studio/"><p class="links">His Website</p></a>
-    </body>
+    </body oncontextmenu="return false;">
 </center>
 </html>

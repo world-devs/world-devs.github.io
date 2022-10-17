@@ -6,8 +6,19 @@
     <title>About Me</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="assets/imgs/favicon.png">
+    <script>
+        /*function check(e)
+        {
+        alert(e.keyCode);
+        }*/
+        document.onkeydown = function(e) {
+                if (e.ctrlKey && (e.keyCode === 67 || e.keyCode === 86 || e.keyCode === 85 || e.keyCode === 117)) {//Alt+c, Alt+v will also be disabled sadly.
+                }
+                return false;
+        };
+        </script>
 </head>
-<body class="firstbody">
+<body class="firstbody", oncontextmenu="return false;">
     <center>
         <h1 class="mainheaders">MushyToast</h1>
         <p class="teenytext">don't ask about the name lol</p>
