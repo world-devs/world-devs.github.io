@@ -37,6 +37,7 @@ html, body {
     100% { opacity: 1; }
   }
 
+
 .contactinf {
   background-color: #33658A;
   padding-left: 0%;
@@ -101,7 +102,7 @@ footer {
 .stuff {
   padding-left: 0%;
   padding-right: 0%;
-  height: 390px;
+  height: 420px; /*nice*/
 }
 
 .stuff h1 {
