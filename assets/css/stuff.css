@@ -14,24 +14,24 @@ html, body {
   }
 
 body h1 {
-    font-family:Audiowide;
+    font-family: 'Roboto Mono', monospace;
     font-size:110px;
 }
 
 body h2 {
-    font-family:Verdana;
+    font-family: 'Roboto Mono', monospace;
     font-size:60;
     padding-bottom:200px;
 }
 
 body p {
-    font-family:Verdana;
+    font-family: 'Roboto Mono', monospace;
     font-size:25;
     font-weight:bold
 }
 
 .links {
-    font-family:Verdana;
+    font-family: 'Roboto Mono', monospace;
     font-size: 20px;
     padding-bottom:40px;
 }
