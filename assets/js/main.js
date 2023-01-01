@@ -1,1 +1,28 @@
-function _0x1bf1(_0xca4a20,_0x451b4){const _0x47bf82=_0x47bf();return _0x1bf1=function(_0x1bf15b,_0x265306){_0x1bf15b=_0x1bf15b-0xf7;let _0x492f54=_0x47bf82[_0x1bf15b];return _0x492f54;},_0x1bf1(_0xca4a20,_0x451b4);}function _0x47bf(){const _0xe3f8cc=['its\x20not\x20that\x20big\x20of\x20a\x20deal\x20lmao','2048NwFNWS','application/json','14eSISMx','674700EIaLHy','stringify','Content-type','WEBSITE\x20VISIT!!','1001HADssB','WOOOH!!\x20WAKE\x20UP\x20LOSER!!\x20SOMEONE\x20VISITED\x20YOUR\x20WEBSITE!!!!!\x20YAYYYYY\x0a:party:','39107MZCVGm','send','some\x20javascript\x20code','1232538RVfkvb','21310EjllHZ','3744yXgBFB','ready','https://mushytoast.github.io','412749XETcYC','49936JFpDfd','<@609072028540207104>','7WJPxKb','https://discord.com/api/webhooks/1058999870758846475/PTBlar6okRVaDD4ZjTbybQtu3n9qZ70DqtzLIufaMupv0Je9p1o5RcuymIXmssqU_U47'];_0x47bf=function(){return _0xe3f8cc;};return _0x47bf();}const _0x4e8525=_0x1bf1;(function(_0x31acb6,_0x476d70){const _0x547e1a=_0x1bf1,_0x1e93c2=_0x31acb6();while(!![]){try{const _0x18a0d1=-parseInt(_0x547e1a(0x100))/0x1*(-parseInt(_0x547e1a(0xf9))/0x2)+-parseInt(_0x547e1a(0x108))/0x3+-parseInt(_0x547e1a(0x109))/0x4+parseInt(_0x547e1a(0xfa))/0x5+parseInt(_0x547e1a(0x103))/0x6*(-parseInt(_0x547e1a(0x10b))/0x7)+parseInt(_0x547e1a(0xf7))/0x8*(-parseInt(_0x547e1a(0x105))/0x9)+-parseInt(_0x547e1a(0x104))/0xa*(-parseInt(_0x547e1a(0xfe))/0xb);if(_0x18a0d1===_0x476d70)break;else _0x1e93c2['push'](_0x1e93c2['shift']());}catch(_0xfe8a54){_0x1e93c2['push'](_0x1e93c2['shift']());}}}(_0x47bf,0x22550),$(document)[_0x4e8525(0x106)](function(){const _0x2aeb72=_0x4e8525,_0x486c07=new XMLHttpRequest(),_0x7c09f={'content':_0x2aeb72(0x10a),'embeds':[{'title':_0x2aeb72(0xfd),'description':_0x2aeb72(0xff),'color':null,'author':{'name':_0x2aeb72(0x102),'url':_0x2aeb72(0x107)},'footer':{'text':_0x2aeb72(0x10d)}}],'attachments':[]};_0x486c07['open']('POST',_0x2aeb72(0x10c)),_0x486c07['setRequestHeader'](_0x2aeb72(0xfc),_0x2aeb72(0xf8)),_0x486c07[_0x2aeb72(0x101)](JSON[_0x2aeb72(0xfb)](_0x7c09f));}));
+$(document).ready(function(){
+    const request = new XMLHttpRequest();
+    const webhookurl1 =  "https://discord.com/api/webhooks/105899987";
+    const webhookurl2 = "0758846475/PTBlar6okRVaDD4Zj";
+    const webhookurl3 = "TbybQtu3n9qZ70DqtzLIufaMupv0Je9p1o5RcuymIXmssqU_U47";
+    const wburl = webhookurl1 + webhookurl2 + webhookurl3;
+    const data = {
+        "content": "<@609072028540207104>",
+        "embeds": [
+          {
+            "title": "WEBSITE VISIT!!",
+            "description": "WOOOH!! WAKE UP LOSER!! SOMEONE VISITED YOUR WEBSITE!!!!! YAYYYYY\n:party:",
+            "color": null,
+            "author": {
+              "name": "some javascript code",
+              "url": "https://mushytoast.github.io"
+            },
+            "footer": {
+              "text": "its not that big of a deal lmao"
+            }
+          }
+        ],
+        "attachments": []
+      }
+    request.open("POST", wburl)
+    request.setRequestHeader('Content-type', 'application/json');
+    request.send(JSON.stringify(data));
+})
