@@ -8,7 +8,8 @@
   --sidepad: 20px;
   --btnwidth: 90px;
   --cardwidth: 300px;
-  --hoverwidth: 500px
+  --hoverwidth: 500px;
+  --fsize1: 12px;
 }
 
 @media screen and (max-width:1234px) {
@@ -21,7 +22,8 @@
   :root {
     --btnwidth: 60px;
     --cardwidth: 250px;
-    --hoverwidth: 300px
+    --hoverwidth: 300px;
+    --fsize1: 7px;
   }
 }
 
@@ -65,7 +67,7 @@ body {
 .socialicon:focus { text-decoration: none; color:rgb(0, 82, 158); }
 .socialicon:active { text-decoration: none; color:teal; }
 
-.aboutme {
+.card {
   padding-left: 10px;
   padding-right: 10px;
   border: 4px solid #000000;
@@ -78,25 +80,16 @@ body {
   font-family: 'Roboto Mono', monospace;
   margin-bottom: 20px;
   padding-bottom: 10px;
+  transition: 1s;
+}
+.card:hover {
+  background-color: rgb(54, 82, 153);
 }
 
-.pastwork {
-  padding-left: 10px;
-  padding-right: 10px;
-  border: 4px solid #000000;
-  margin-left: var(--sideborder);
-  margin-right: var(--sideborder);
-  border-radius: 25px;
-  background-color: rgb(54, 75, 128);
-  margin-top: 30px;
-  text-align: center;
-  font-family: 'Roboto Mono', monospace;
-  margin-bottom: 20px;
-}
 
-.cv {
+.button {
   width: var(--btnwidth);
-  font-size: 12px;
+  font-size: var(--fsize1);
   font-weight: bold;
   height: 50px;
   background-color: rgb(54, 75, 128);
@@ -104,10 +97,9 @@ body {
   border: 4px solid #000000;
   margin-right: 10px;
   transition: 0.3s;
-
 }
 
-.cv:hover {
+.button:hover {
   background-color: rgb(39, 82, 192);
   width: 100;
 }
