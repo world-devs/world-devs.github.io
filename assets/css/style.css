@@ -12,6 +12,12 @@
   --fsize1: 12px;
 }
 
+
+@media screen and (max-width:1400px) {
+  :root {
+    --sideborder: 200px
+  }
+}
 @media screen and (max-width:1234px) {
   :root {
     --sideborder: 20px
