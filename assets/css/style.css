@@ -10,12 +10,13 @@
   --cardwidth: 300px;
   --hoverwidth: 500px;
   --fsize1: 12px;
+  --hoveredtxtsise: 15px;
 }
 
 
 @media screen and (max-width:1400px) {
   :root {
-    --sideborder: 200px
+    --sideborder: 210px
   }
 }
 @media screen and (max-width:1234px) {
@@ -30,11 +31,16 @@
     --cardwidth: 250px;
     --hoverwidth: 300px;
     --fsize1: 9px;
+    --hoveredtxtsise: 12px;
   }
 }
 
 .header1mainintro {
   margin-bottom: 0px;
+}
+
+.psuedoname {
+  display: none;
 }
 
 .intro {
@@ -108,6 +114,8 @@ body {
 .button:hover {
   background-color: rgb(39, 82, 192);
   width: 100;
+  height: 60;
+  font-size: var(--hoveredtxtsise);
 }
 
 .center {
