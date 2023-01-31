@@ -11,6 +11,7 @@
   --hoverwidth: 500px;
   --fsize1: 12px;
   --hoveredtxtsise: 15px;
+  --discardwidth: 520px;
 }
 
 
@@ -35,8 +36,24 @@
   }
 }
 
+@media screen and (max-width:483px) {
+  :root {
+    --discardwidth: 300px;
+  }
+}
+
+@media screen and (max-width:395px) {
+  :root {
+    --discardwidth: 210px;
+  }
+}
+
 .header1mainintro {
   margin-bottom: 0px;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .psuedoname {
@@ -67,7 +84,8 @@
 
 
 body {
-  background-color: rgb(37, 50, 84);
+  background: rgb(2,0,36);
+  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(23,23,94,1) 0%, rgba(0,7,69,1) 100%);
 }
 
 .socialicon:visited {
@@ -142,4 +160,13 @@ body {
 a:visited {
   text-decoration: none;
   color: #000000;
+}
+
+.diccord {
+  padding-top: 8px;
+}
+
+.discard {
+  width: var(--discardwidth);
+  border-radius: 20px;
 }
