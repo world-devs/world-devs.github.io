@@ -1,0 +1,23 @@
+{
+  "name": "world-devs.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./assets/css/tail.css -o ./assets/css/index.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/world-devs/world-devs.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/world-devs/world-devs.github.io/issues"
+  },
+  "homepage": "https://github.com/world-devs/world-devs.github.io#readme",
+  "dependencies": {
+    "tailwindcss": "^3.2.6"
+  }
+}
